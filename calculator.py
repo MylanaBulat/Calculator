@@ -25,10 +25,6 @@ class Calc:
         except SyntaxError as syntax_error:
             return syntax_error.msg
         except TypeError:
-            return "Wrong input type."
+            return 'Wrong input type.'
         except Exception as error:
             return f'Abnormal exit: Unexpected error has occurred ({error.msg}).'
-
-
-c1 = Calc(input("Enter the expression: "))
-print(c1.output())
