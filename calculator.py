@@ -4,7 +4,7 @@ import re
 class Calc:
 
     def __init__(self, input_expression):
-        self.is_valid = False
+        self.is_valid = False // twefywdkwv
         self.result = None
         self.expression = input_expression
 
